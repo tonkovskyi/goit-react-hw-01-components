@@ -1,0 +1,26 @@
+.transactionHistory {
+    margin: 50px auto;
+    background-color: rgb(255, 255, 255);
+    color: rgb(117, 117, 117);
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.5);
+  }
+  
+  thead {
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  thead tr th {
+    padding: 20px;
+    background-color: rgb(100, 207, 214);
+  }
+  
+  td {
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  tr:nth-of-type(2n + 1) {
+    background-color: rgb(220, 233, 243);
+  }

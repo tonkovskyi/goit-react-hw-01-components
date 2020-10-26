@@ -1,0 +1,40 @@
+.profile {
+    width: 299px;
+    height: 400px;
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 1rem;
+  }
+  
+  .description {
+    padding: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+  }
+  
+  .name {
+    padding-top: 25px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .tag {
+    padding-top: 10px;
+    color: grey;
+  }
+  
+  .location {
+    padding-top: 10px;
+    color: grey;
+  }
